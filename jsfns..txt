@@ -1,0 +1,14 @@
+method
+a function under object
+
+high order fn.
+a fn. that takes another fn. as parameter
+
+first class fn.
+a fn. that assign to a variable
+a fn that pass as argument to another fn.
+fn. that can returned from another fn.
+
+call back fn.
+a fn. is passed to another fn. as argument.
+

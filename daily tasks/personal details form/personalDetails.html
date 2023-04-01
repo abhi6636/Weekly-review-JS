@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details form</title>
+    <style>
+        div{
+            text-align: center;
+        }
+        h2{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <form action="submit">
+            <h2>Personal Details</h2>
+            <label for="">Name:</label>
+            <input type="text"> <br> <br>
+            <label for="">Password:</label>
+            <input type="password"> <br> <br>
+            <label for="">Email id:</label>
+            <input type="email"><br> <br>
+            <label for="">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> female <br><br>
+            <label for="">Contact:</label>
+            <input type="number"> <br>
+            <h2>Educational Qualification</h2>
+            <label for="">Degree:</label>
+            <select name="degree" id="degree">
+                <optgroup label="--Select Group--">
+                    <option value="none" selected disabled hidden>--Select Group--</option>
+                    <option value="">Humanities</option>
+                    <option value="">Science</option>
+                    <option value="">Commerce</option>
+                    <option value="">Others</option>
+            </select> <br><br>
+            <label for="">Engineering:</label>
+            <select name="degree" id="degree">
+                <optgroup label="--Select Group--">
+                    <option value="none" selected disabled hidden>--Select Group--</option>
+                    <option value="">CS</option>
+                    <option value="">Mech</option>
+                    <option value="">EC</option>
+                    <option value="">Others</option>
+            </select> <br><br>
+            <label for="">Hobbies:</label>
+            <input type="checkbox">Playing Chess
+            <input type="checkbox">Reading Books
+            <br>
+            <h2>Address</h2>
+            <textarea rows="4" cols="50"></textarea> <br><br>
+            <label for="myfile">Attach Resume:</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+            <input type="submit"> <input type="reset">
+
+        </form>
+    </div>
+</body>
+
+</html>

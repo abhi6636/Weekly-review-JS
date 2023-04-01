@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Profile</title>
+    <link rel="icon" type="image/x-icon" href="photo.jpg">
+
+    <style>
+        .bodyContainer{
+            background-color: bisque;
+            padding: 70px;
+            border: 3px;
+            text-align: center;
+        }
+        .flex-container{
+            display: flex;
+            background-color: aquamarine;
+            align-items: center;
+            justify-content: center;
+    
+        }
+        #header{
+            background-color: antiquewhite;
+        }
+        #name{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: red;
+        }
+        #photo{
+            height: 200px;
+            width: 150px;
+            border-radius: 50%;
+
+        }
+    </style>
+
+</head>
+<body>
+<div class="bodyContainer">
+
+   
+    <div id="header">
+            <h1>Simple Profile</h1>
+        </div>
+    <div>
+         <div id="photoContainer">
+            <img src="photo.jpg" alt="profilePhoto" id="photo"/>
+        </div>
+        <div class="name">
+            <h1 id="name">Abhinand M S</h1>
+        </div>
+       
+    </div>
+    <div>
+        <div>
+            <h4>Personal Details</h4>
+            <p><b>Address :</b> Muthiramparambath House <br> Chowannur PO <br>Kunnamkulam <br> Thrissur <br><b>Pincode:</b> <i>680517</i> </p>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div>
+            <h4>
+                Interrests
+            </h4>
+                <ul>
+                    <li>
+                        Reading
+                    </li>
+                    <li>
+                        Singing
+                    </li>
+                    <li>
+                        Playing Games
+                    </li>
+                </ul>
+            </div>
+           <div>
+            <h4>
+                Known Languages
+            </h4>
+            <ol>
+                <li>Malayalam</li>
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Tamil</li>
+            </ol>
+           </div>
+            
+        </div>
+        <div>
+            <h4>Contact Me on</h4>
+            <a href="https://www.facebook.com/abhienandh" target="_blank">Facebook</a> <br>
+            <a href="https://twitter.com/mnuOffl" target="_blank">Twitter</a>
+        </div>
+        <hr> <p>Simple profile created by <i> Abhinand M S</i></p>
+    </div>
+   
+</div>
+</body>
+</html>

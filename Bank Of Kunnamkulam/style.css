@@ -1,0 +1,51 @@
+#mainBody{
+
+  text-align: center;
+  
+}
+#Welcome{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+#balanceScreen{
+    font-weight: 900;
+    font-size: 30px;
+}
+#bal{
+    font-size: 40px;
+}
+#ops{
+    padding: 50px;
+    display: -webkit-inline-flex;
+    border-style: groove;
+    border-radius: 30px
+}
+#depositSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+#withdrawSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+#withdrawInput{
+    border-radius: 5px;
+}
+#depositInput{
+    border-radius: 5px;
+}
+.label{
+    font-size: 20px;
+    font-weight: 900;
+}
+#showBalance{
+    padding-top: 20px;
+}

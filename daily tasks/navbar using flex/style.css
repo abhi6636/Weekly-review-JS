@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 75px;
+    background-color:whitesmoke;
+    padding: 0px 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.w3schoolLogo{
+    width: 45px;
+    margin: 2px;
+}
+.w3schoolLogo-img{
+    width: 100%;
+}

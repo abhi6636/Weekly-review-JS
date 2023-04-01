@@ -1,0 +1,99 @@
+
+#navbar {
+    display: flex;
+    text-align: end;
+
+}
+
+#navbarPhoto {
+    height: 120px;
+    width: 120px;
+    padding-left: 300px;
+    padding-top: 39px;
+}
+
+#visual {
+    padding-left: 300px;
+}
+
+#body {
+    display: flex;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#photo {
+    height: 600px;
+    padding-top: 80px;
+}
+
+#photoContainer {
+    text-align: end;
+    padding-left: 150px;
+}
+
+.navbarLink {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.navbarLink:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#navbarLinks {
+    padding-left: 450px;
+    padding-top: 36px;
+    text-align: end;
+    width: max-content;
+}
+
+#navButtons {
+    padding-left: 500px;
+    padding-top: 50px;
+}
+
+.buttonLogin {
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+
+
+}
+
+.buttonSignup {
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-width: thin;
+
+}
+
+.buttonSignup:hover {
+    background-color: blue;
+    border-color: blue;
+}
+
+.buttonLogin:hover {
+    color: blue;
+    border-color: blue;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
