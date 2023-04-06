@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kunnamkulam Bank Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainBody">
+        <div id="Welcome">
+            <h1>Welcome to Bank of Kunnamkulam</h1>
+        </div>
+        <div id="balanceScreen">
+            <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Your Current Bank Balance is: <br>
+            <p id="bal"> ₹<span id="balance"> 0.00</span></p>
+            </p>
+        </div>
+
+        <div id="ops">
+            <div id="depositSection">
+                <label for="deposit" class="label">Deposit:</label><br>
+                <input type="number" id="deposit" style="width: 200px; height: 30px;" placeholder="Enter the Amount to Deposit"> <br>
+                <button onclick="deposit()" style="height: 35px; width: 100px;" id="depButton">Deposit</button>
+            </div>
+            <div id="withdrawSection">
+                <label for="withdraw" class="label">Withdraw:</label> <br>
+                <input type="number" id="withdraw" style="width: 200px; height: 30px;"  placeholder="Enter the Amount to Withdraw"><br>
+                <button onclick="withdraw()" style="height: 35px; width: 100px;">Withdraw</button>
+            </div>
+        </div>
+
+            <div id="showBalance">
+                <button onclick="showBalance()" style="height: 70px
+                ; width: 150px;">Show Balance</button> <br><br>
+            </div>
+        </body>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
