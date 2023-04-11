@@ -9,7 +9,7 @@ const introdata = {
     animated: {
         first: "I love coding 🥰",
         second: "I develop responsive websites 😎",
-        third: "I use tabs more than spaces 😉",
+        third: "I use tabs over spaces 😉",
     },
     description: `Hi, I'm Abhinand. My passion for coding and problem-solving has led me to specialize in MERN stack Development.
     Throughout my career, I've had the opportunity to work on a wide variety of projects, ranging from simple websites to complex web applications.  `,
